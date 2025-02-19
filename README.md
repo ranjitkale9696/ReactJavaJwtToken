@@ -8,4 +8,11 @@ GITHUB LINK
 https://github.com/phegondev/users-management-system/tree/java-react
 
 
+USER
+EMAIL:-user1@gmail.com
+PASSWORD:-pass@123
+
+ADMIN
+EMAIL:-admin1@gmail.com
+PASSWORD:-pass@123
 
