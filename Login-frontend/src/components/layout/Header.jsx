@@ -1,7 +1,8 @@
 import React from 'react'
 import {  Menu, X } from "lucide-react";
 import { useState } from "react";
-// import Logo from "../logo.png";
+// import Logo from"../assets/Logo.png";
+
 import { NavLink } from 'react-router-dom'
 
 
