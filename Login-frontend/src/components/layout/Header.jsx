@@ -41,15 +41,10 @@ const Header = () => {
               </li>
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
-              Sign In
-            </a>
-            <a
-              href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
-            >
-              Create an account
-            </a>
+           
+           <NavLink className="nav-link active py-2 px-3 border rounded-md" to={'/login'}>Sign In</NavLink>
+          
+           <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/'}>Create an account</NavLink>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleHeader} aria-label="Toggle menu">
@@ -74,15 +69,10 @@ const Header = () => {
               </li>
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
-              </a>
-              <a
-                href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
-              >
-                Create an account
-              </a>
+             
+              <NavLink className="nav-link active py-2 px-3 border rounded-md" to={'/login'}>Sign In</NavLink>
+              
+              <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/'}>Create an account</NavLink>
             </div>
           </div>
         )}
