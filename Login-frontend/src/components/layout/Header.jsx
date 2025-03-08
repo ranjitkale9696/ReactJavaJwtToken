@@ -44,7 +44,7 @@ const Header = () => {
            
            <NavLink className="nav-link active py-2 px-3 border rounded-md" to={'/login'}>Sign In</NavLink>
           
-           <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/'}>Create an account</NavLink>
+           <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/register'}>Create an account</NavLink>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleHeader} aria-label="Toggle menu">
@@ -72,7 +72,7 @@ const Header = () => {
              
               <NavLink className="nav-link active py-2 px-3 border rounded-md" to={'/login'}>Sign In</NavLink>
               
-              <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/'}>Create an account</NavLink>
+              <NavLink className="nav-link active py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800" to={'/register'}>Create an account</NavLink>
             </div>
           </div>
         )}
