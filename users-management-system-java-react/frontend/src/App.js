@@ -33,7 +33,7 @@ function App() {
                 <Route path="/update-user/:userId" element={<UpdateUser />} />
               </>
             )}
-            <Route path="*" element={<Navigate to="/login" />} />‰
+            <Route path="*" element={<Navigate to="/login" />} />
           </Routes>
         </div>
         <FooterComponent />

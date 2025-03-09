@@ -18,7 +18,9 @@ const handleSubmit = async (e) => {
         if (userData.token) {
             localStorage.setItem('token', userData.token)
             localStorage.setItem('role', userData.role)
+            
             navigate('/profile')
+            window.location.reload(); // This will refresh the page
         }else{
             setError(userData.message)
         }
