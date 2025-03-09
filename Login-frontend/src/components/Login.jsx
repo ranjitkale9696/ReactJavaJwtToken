@@ -7,7 +7,7 @@ function Login() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false); // New state for toggling password visibility
   const [error, setError] = useState('');
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,7 +20,8 @@ function Login() {
         localStorage.setItem('role', userData.role);
         alert('Login successful');
         alert(JSON.stringify(userData));
-        // navigate('/profile');
+        navigate('/profile');
+        window.location.reload(); // This will refresh the page
       } else {
         setError(userData.message);
       }
